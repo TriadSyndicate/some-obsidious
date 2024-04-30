@@ -5,14 +5,14 @@ models
 - [ ] ghostPlayer - main player [ref]
 - [ ] some contracts for players 
 - [ ] recommendation_report - player
-- [x] bodies
-- [x] countries
-- [x] territories
-- [x] competitions
-- [x] matches
-- [x] fixtures
-- [x] teams
-- [x] players 
+- [x] bodies[[Bodies]]
+- [x] countries[[Teams]]
+- [x] territories[[Teams]]
+- [x] competitions[[Competitions]]
+- [x] matches[[Matches]]
+- [x] fixtures[[Fixtures]]
+- [x] teams[[Teams]]
+- [x] players [[Players]]
 - fixtureType
 - parentTeam
 - parentPlayers
