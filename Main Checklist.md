@@ -1,0 +1,19 @@
+models
+- [ ] watchlist - player
+- [ ] shortlist - player
+- [ ] short-report - player
+- [ ] ghostPlayer - main player [ref]
+- [ ] some contracts for players 
+- [ ] recommendation_report - player
+- [x] bodies
+- [x] countries
+- [x] territories
+- [x] competitions
+- [x] matches
+- [x] fixtures
+- [x] teams
+- [x] players 
+- fixtureType
+- parentTeam
+- parentPlayers
+- ghostPlayers
