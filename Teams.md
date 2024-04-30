@@ -5,13 +5,15 @@ Collections - mainTeam, childTeam, Category, subCategory, Countries, Territories
 `on_contract_players - Array of main-playerIds,`
 `category - ObjectId ref category,`
 `child-teams - Array of childteamIds,`
-`linked_country - ObjectId of Country document`
+`linked_country - ObjectId of Country document`,
+==`competitions - Array of ObjectIds ref competitions`==
 `}`
 
 `child-team:{`
 `name - String,`
 `type - ObjectId ref subCategory,`
 `roster - Array of ghost_player_ids,`
+`past_players - Array of ObjectIds ref ghostPlayer for previous players`
 ==`**comps - Array of competitionIds //old version with compsIds`==
 `}`
 

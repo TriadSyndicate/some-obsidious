@@ -12,6 +12,8 @@ collections - mainPlayer, ghostPlayer inclusion of contracts and injuries as wel
 `performance - Obj ref Perf,`
 `ghost_player_ids - Array GhostPlayerIds,`
 `injuries - Array of injuryObjects`
+`supporting_file - String`,
+`video - Array`
 `}`
 
 `ghost-player:{`

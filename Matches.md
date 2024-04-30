@@ -11,7 +11,8 @@ Collections - matches
 `data_entered - Boolean,`
 `formation - String // formation, 4-3-3 [dropdownList on the frontend]`
 `match_events - Array with match_event`,
-`video - Array of String AWS video codes`
+`video - Array of String AWS video codes`,
+`documents - Array of Links to documents stored on storage server like scoresheets etc`
 `}`
 
 
