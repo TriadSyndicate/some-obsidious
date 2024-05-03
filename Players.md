@@ -2,14 +2,14 @@ collections - mainPlayer, ghostPlayer inclusion of contracts and injuries as wel
 `main-player:{`
 `name - String,`
 `real_dob - Date Object,`
-`nationality - Array of CountryIds`
+`nationality - Array of CountryIds`,
+`performance - Obj ref Perf,`
 `stats - Object (ref Stats)`
 `parent_teams - Array of TeamObjects {reg_date, parent_team_id, end_date, contract_type},`
 `matches - Array of MatchIds,`
 `foot - String,`
 `positions - Array // List of positions`
 `gender -  String,`
-`performance - Obj ref Perf,`
 `ghost_player_ids - Array GhostPlayerIds,`
 `injuries - Array of injuryObjects`
 `supporting_file - String`,
@@ -19,12 +19,12 @@ collections - mainPlayer, ghostPlayer inclusion of contracts and injuries as wel
 `ghost-player:{`
 `main_player_id - ref ObjectId main-player,`
 `fake_dob - Date Object,`
-`child_team - Team Object {reg_date, child_team_id, end_date, contract_type}`
-`jersey_num - Int`
-`Video - String`
-`Stats - ref Stats Objects`
-`Matches - array of child team matches`
+`child_teams - Team Object {reg_date, child_team_id, 
+`end_date, contract_type}`
 `performance - Object Ref Perf,`
+`jersey_num - Int`
+`stats - ref Stats Objects`
+`matches - array of child team matches`
 `}`
 
 `stats:{`
@@ -74,7 +74,7 @@ collections - mainPlayer, ghostPlayer inclusion of contracts and injuries as wel
 injuryObject:{
 date_of_injury - Date Object,
 type_of_injury - String,
-status - String // Back in training, Recovering, Recovered, Unknown
+	status - String // Back in training, Recovering, Recovered, Unknown
 recovery_date - Date Object
 }
 ```

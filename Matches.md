@@ -9,7 +9,7 @@ Collections - matches
 `home_stats - Array of objects *match_stats*,`
 `away_stats - Array with match_stats,`
 `data_entered - Boolean,`
-`formation - String // formation, 4-3-3 [dropdownList on the frontend]`
+`formation - Object of Home Team and Away Team as strings // formation, 4-3-3 [dropdownList on the frontend]`
 `match_events - Array with match_event`,
 `video - Array of String AWS video codes`,
 `documents - Array of Links to documents stored on storage server like scoresheets etc`

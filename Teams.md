@@ -1,12 +1,15 @@
 Collections - mainTeam, childTeam, Category, subCategory, Countries, Territories
 - linked main-team to specific country ObjectId
+- link association to country specific
+- link federations to associations
+
+
 `main-team:{`
 `name - String,`
 `on_contract_players - Array of main-playerIds,`
 `category - ObjectId ref category,`
 `child-teams - Array of childteamIds,`
-`linked_country - ObjectId of Country document`,
-==`competitions - Array of ObjectIds ref competitions`==
+`linked_country - ObjectId of Country document`
 `}`
 
 `child-team:{`
@@ -14,7 +17,8 @@ Collections - mainTeam, childTeam, Category, subCategory, Countries, Territories
 `type - ObjectId ref subCategory,`
 `roster - Array of ghost_player_ids,`
 `past_players - Array of ObjectIds ref ghostPlayer for previous players`
-==`**comps - Array of competitionIds //old version with compsIds`==
+==`competitions - Array of competitionIds //old version with compsIds`==,
+`matches - Array of ObjectIds ref Matches`
 `}`
 
 `category:{`

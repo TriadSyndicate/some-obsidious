@@ -5,7 +5,7 @@ Collections - fixtures
 `fixtures:{`
 `competition_id - ObjectId ref competition,`
 `competition_year - String,`
-`fixtureType - String, // tournament type just for the records eg. tournament || league || knockout`
+`fixture_type - String, // tournament type just for the records eg. tournament || league || knockout`
 `stages - Array of Objects of stage`
 `}`
 
