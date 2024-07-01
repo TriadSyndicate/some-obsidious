@@ -1,6 +1,9 @@
 Collections - matches
 - inclusion of injuries, penalties, extra-time match_events
+- include fixtureId and stageId
 `matches:{`
+`fixture_id - ObjectId ref Fixture`,
+`stage_id - ObjectId ref Stage`,
 `competition_id - ObjectId ref competition,`
 `home_team - ObjectId ref child-team,`
 `away_team - ObjectId ref child-team,`
@@ -30,7 +33,7 @@ Collections - matches
 
 `match_event:{`
 `event_type - String,`
-`event_type_data_object - Object with specific event *// yellow_card, red_card, own_goal, goal_with_assist, goal_no_assist, penalty, injuries, extra-time*`
+`event_type_data_object - Object with specific event *// yellow_card, red_card, substitute, own_goal, goal_with_assist, goal_no_assist, penalty, injuries, extra-time*`
 `player_id - ObjectId ref ghost_player_id,`
 `match_id - ObjectId ref match,`
 `minute - int`
@@ -79,3 +82,4 @@ Collections - matches
 `injured_player_id - ObjectId ref ghost_player,`
 `extratime - Boolean`
 `}`
+

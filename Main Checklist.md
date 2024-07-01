@@ -18,3 +18,4 @@ models
 - parentPlayers
 - ghostPlayers
 - matches referencing fixture and stage name
+- in individual competition tracking: ability to indicate a subbed out player being tracked but not necessarily the subbed in player, ability to show a conceded goal but not the one who scored on the other team

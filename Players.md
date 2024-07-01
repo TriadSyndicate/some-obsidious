@@ -27,6 +27,8 @@ collections - mainPlayer, ghostPlayer inclusion of contracts and injuries as wel
 `matches - array of child team matches`
 `}`
 
+`Varying jersey numbers of the same team, different years`
+
 `stats:{`
 `match_day_squad - int,`
 `starter - int,`
